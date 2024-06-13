@@ -122,17 +122,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "tree-sitter-code-splitter"
-version = "0.1.0"
-dependencies = [
- "cc",
- "thiserror",
- "tree-sitter 0.22.6",
- "tree-sitter-rust",
- "tree-sitter-zig",
-]
-
-[[package]]
 name = "tree-sitter-rust"
 version = "0.21.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -140,6 +129,17 @@ checksum = "277690f420bf90741dea984f3da038ace46c4fe6047cba57a66822226cde1c93"
 dependencies = [
  "cc",
  "tree-sitter 0.22.6",
+]
+
+[[package]]
+name = "tree-sitter-splitter"
+version = "0.1.0"
+dependencies = [
+ "cc",
+ "thiserror",
+ "tree-sitter 0.22.6",
+ "tree-sitter-rust",
+ "tree-sitter-zig",
 ]
 
 [[package]]
