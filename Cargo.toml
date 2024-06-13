@@ -1,5 +1,5 @@
 [package]
-name = "tree-sitter-splitter"
+name = "splitter-tree-sitter"
 version = "0.1.0"
 edition = "2021"
 
