@@ -1,0 +1,15 @@
+[package]
+name = "tree-sitter-code-splitter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.61"
+tree-sitter = "0.22"
+
+[dev-dependencies]
+tree-sitter-rust = "0.21"
+tree-sitter-zig = { git = "https://github.com/maxxnino/tree-sitter-zig" }
+
+[build-dependencies]
+cc="*"
